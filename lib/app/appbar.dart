@@ -3,19 +3,19 @@ import 'package:nkc/home/home.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-class appbar extends StatefulWidget {
-  const appbar({Key? key}) : super(key: key);
+class Appbar extends StatefulWidget {
+  const Appbar({Key? key}) : super(key: key);
 
   @override
-  State<appbar> createState() => _appbarState();
+  State<Appbar> createState() => _AppbarState();
 }
 
-class _appbarState extends State<appbar> {
+class _AppbarState extends State<Appbar> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
-      body: Container(),
+      // appBar: AppBar(),
+      // body: Container(),
       bottomNavigationBar: BottomAppBar(
         color: const Color.fromARGB(225, 24, 19, 88),
         child: Row(
